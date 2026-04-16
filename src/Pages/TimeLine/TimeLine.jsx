@@ -11,7 +11,6 @@ const TimeLine = () => {
   const filterData =
     sortType == "all" ? timeLine : timeLine.filter(data => data.actionType == sortType);
 
-  console.log(filterData);
 
   return (
     <div className='w-8/12 mx-auto py-5 min-h-[60vh]'>

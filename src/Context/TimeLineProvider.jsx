@@ -9,15 +9,12 @@ const TimeLineProvider = ({ children }) => {
 
   };
 
-
-
   const data = {
 
     timeLine,
     addTimeLineEvent
 
   }
-
 
   return <timeLineContext.Provider value={data}>
     {children}
